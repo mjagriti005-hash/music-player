@@ -1,9 +1,6 @@
 body{
     margin: 0;
-    /*font-family:Arial, sans-serif;*/
     font-family: 'Segoe UI', sans-serif;
-    /*background:#222;*/
-    /*background: url("bg.jpg") center cover;*/
     background: linear-gradient(135deg,#141E30,#243B55);
     color:white;
     display:flex;
@@ -65,14 +62,6 @@ body{
      margin:15px 0;
 }
 
-/* .rotate{
-    animation:spin 6s linear infinite;
-}
-
-@keyframes spin{
-    from{transform:rotate(0deg);}
-    to{transform:rotate(360deg);}
-} */
 
 #cover{
     width: 100%;
