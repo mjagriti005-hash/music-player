@@ -3,23 +3,29 @@ const songs = [
     title:"Ya Rabba",
     artist:"kailash Kher",
     src:"song1.mp3",
-    cover:"song1.webp"
+    cover:"song1.webp",
+    
 },
 {
     title:"Ek Jalak Ko Teri Mai Tarsa hua",
     artist:"Atif Asalam",
     src:"song2.mp3",
     cover:"song2.webp"
+    
 },
 {
-    title:"Song 3",
-    artist:"Artist 3",
+    title:"Tu Iss Tarah Se",
+    artist:"Mani Dharamkot",
     src:"song3.mp3",
-    cover:"song3.webp"
+    cover:"song3.webp",
+    
 }
 ];
 
 let currentSong = 0;
+
+
+
 
 const audio = document.getElementById("audio");
 const title = document.getElementById("title");
@@ -49,6 +55,8 @@ function loadSong(index){
     artist.textContent = songs[index].artist;
     cover.src=songs[index].cover;
 }
+
+
 
 function nextSong(){
     currentSong++;
